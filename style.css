@@ -1,0 +1,93 @@
+.izquierda{
+  float:left;
+  min-width: 20%;
+
+  background-color: #F3F1EB;
+  border:2px solid black;
+  margin:10px;
+}
+.izquierda ul{
+       list-style:none;
+       }
+.izquierda ul {
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  margin: 10px;
+}
+
+.menu>ul a{
+  padding: 5px;
+  text-decoration: none;
+  color:white;
+ font: italic  bold 11px Georgia, sans-serif;
+ text-transform: uppercase;
+}
+.menu a:first-child{
+  color:#3871BE;
+}
+.contenido{
+  float:left;
+  min-width: 60%;
+  min-height: 100%;
+  background-color:#747C87;
+}
+.articulo{
+  margin:10px;
+  padding:5px;
+  border:2px solid #E0EFED;
+}
+.articulo h2{
+font:  bold 14px verdana,arial,sans-serif;
+text-transform: uppercase;
+color:#D8D4D3;
+}
+.articulo h3{
+  font:bold 12px Helvetica, sans-serif;
+  color:#0A0200;
+
+}
+.articulo p {
+  font:normal 10px Trebuchet MS, sans-serif;
+  color:white;
+
+}
+.derecha{
+  float:left;
+  min-width: 15%;
+  min-height: 100%;
+  background-color:#F3F1EB ;
+}
+.derecha>.destacado{
+  border:2px dashed black;
+  margin: 15px;
+
+
+
+}
+.destacado>p{
+  font:italic  bold 15px Georgia, sans-serif;
+  color:blue;
+
+}
+.destacado h2,.menu>h2{
+  color:white;
+  text-transform: uppercase;
+
+  font:bold 18px verdana;
+  background-color: black;
+}
+.destacado a,.menu a
+{
+  padding: 10px !important;
+}
+[menua]{
+  color:#33cccc!important;
+}
+[menua*="anchez"]{
+  font-size: 14px;
+}
+[menub^="cla"]{
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
